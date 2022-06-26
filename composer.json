@@ -1,0 +1,22 @@
+{
+    "name": "sohag-pro/interstellar",
+    "description": "Package for laravel admin panel generation",
+    "minimum-stability": "dev",
+    "require": {
+        "php" : "^8.1.0",
+        "laravel/framework": "^9.0"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "Sohagpro\\Interstellar\\": "app"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sohagpro\\Interstellar\\InterstellarServiceProvider"
+            ]
+        }
+    }
+}
