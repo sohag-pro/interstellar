@@ -7,7 +7,7 @@
 2. PHP 8.1
 
 #### Installation guide
-1. add the below lines in your `composer.json file`
+1. add the below lines in your `composer.json` file
     ```
     "repositories": [
             {
